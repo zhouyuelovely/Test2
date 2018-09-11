@@ -1,0 +1,115 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tarena.tabs.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+<!--添加权限  -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.tarena.tabs.dbutils.MApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!--设置百度地图的AcessKey  -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="l2B9oTITYRR0iULb52a9rdMx" />
+        <!--设置友盟用户反馈的的Key值  -->
+        <meta-data android:value="55290039fd98c57fcb000468" android:name="UMENG_APPKEY" />
+         <meta-data
+        android:value="com.tarena.tabs.ui"
+        android:name="UMENG_CHANNEL"/>  <!-- 用户反馈用的 -->
+        
+           <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" ><!-- 百度地图定位用的 -->
+        </service>
+        <activity
+            android:name="com.tarena.tabs.ui.HuadongActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.MainActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.MenuActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.FlightSearchActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.PlaneSearchActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.PlaneDetailActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.SubscribeActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.p28" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.FeedBackActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.BranchSearchActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.ModpwdActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.FindPwdActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.UserAdminActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.OrderManagerActivity"></activity>
+        <activity android:name="com.tarena.tabs.ui.OrderInputActivity" >
+        </activity>
+        <activity
+            android:name="com.tarena.tabs.ui.ListPassangerActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.ModifyPassangerActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.AddPassangerActivity" >
+        </activity>
+        <activity
+            android:name="com.tarena.tabs.ui.RegestActivity"
+            android:label="@string/title_activity_regest" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.LocalPOIActivity" >
+        </activity>
+        <activity android:name="com.tarena.tabs.ui.POIOnMapActivity" >
+        </activity>
+    </application>
+
+</manifest>

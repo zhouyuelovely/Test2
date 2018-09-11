@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubscribeActivity" >
+   <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bg" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="订阅设置"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+<LinearLayout
+ 
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+     android:background="#87CEFA"
+  >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/feedbackhead" />
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingTop="50dp"
+   android:layout_marginLeft="40dp" 
+  >
+  <CheckBox
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p2701_cb"
+  ></CheckBox>
+  <TextView
+      android:id="@+id/p2701_cb_1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="机票促销信息"
+  ></TextView>
+  </TableRow>
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingTop="20dp"
+   android:layout_marginLeft="40dp" 
+  >
+  <CheckBox
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p2702_cb"
+  ></CheckBox>
+  <TextView
+      android:id="@+id/p2702_cb_2"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="酒店促销信息"
+  ></TextView>
+  </TableRow>
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingTop="20dp"
+   android:layout_marginLeft="40dp" 
+  >
+  <CheckBox
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p2703_cb"
+  ></CheckBox>
+  <TextView
+      android:id="@+id/p2703_cb_3"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="合作商户促销信息"
+  ></TextView>
+  </TableRow>
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingTop="20dp"
+   android:layout_marginLeft="40dp" 
+  >
+  <CheckBox
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/p2704_cb"
+  ></CheckBox>
+  <TextView
+      android:id="@+id/p2704_cb_4"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="航线更改信息"
+  ></TextView>
+  </TableRow>
+
+
+   <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+    
+ 
+  <Button
+      android:id="@+id/p2705_btn"
+      android:layout_width="80dp"
+       android:layout_marginLeft="65dp" 
+      android:layout_height="wrap_content"
+      android:background="@drawable/green_bt"
+      android:text="@string/k2701" />
+
+  <Button
+      android:id="@+id/p2706_btn"
+      android:layout_width="77dp"
+       android:layout_marginLeft="50dp" 
+      android:layout_height="wrap_content"
+      android:background="@drawable/blue_bt"
+      android:text="@string/k2702" />
+
+  </LinearLayout>
+  
+  </LinearLayout>
+
+</RelativeLayout>

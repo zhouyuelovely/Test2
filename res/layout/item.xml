@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="航班号：" />
+     <TextView
+        android:id="@+id/fid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="FG787" />
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起止 时间：" />
+     <TextView
+        android:id="@+id/stime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/name" />
+    </LinearLayout>
+ 
+
+   <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起止 城市：" />
+     <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/name" />
+    </LinearLayout>
+
+     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单时间：" />
+     <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          />
+    </LinearLayout>
+
+  
+  <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="票价:" />
+      <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乘客姓名:" />
+        <TextView
+        android:id="@+id/uname" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="证件号:" />
+        <TextView
+        android:id="@+id/idcard" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+</LinearLayout>

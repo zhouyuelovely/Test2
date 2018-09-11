@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="k2701">确定</string>
+    <string name="k2702">返回</string>
+    <string name="ok_str">确定</string>
+    <string name="feedback_contact_hint">联系方式:邮箱/QQ/手机号</string>
+    <string name="feedback_content_hint">请输入您的反馈意见</string>
+    <string name="feedback_record">反馈记录</string>
+    <string name="feedback_success">发送成功</string>
+    <string name="feedback_failed">发送失败</string>
+    <string name="umeng_fb_send">发送</string>
+    <string name="umeng_fb_feedback">请输入您想对我们说的话，对于您所提出的宝贵意见我们会及时采纳！</string>
+    <string name="request_content">请输入您想对我们说的话，对于您所提出的宝贵意见我们会及时采纳！</string>
+    <string name="message_image_desc">Message Image</string>
+      
+    <string name="app_name">航空订票系统</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_regest">注册</string>
+    
+ <string-array name="company">
+        <item>南方航空公司</item>
+        <item>东方航空公司</item>
+        <item>国际航空公司</item>
+        <item>海南航空公司</item>
+        <item>四川航空公司</item>
+    </string-array>
+    <string-array name="id_type">
+        <item>身份证</item>
+        <item>驾照</item>
+        <item>护照</item>
+        <item>军官证</item>
+    </string-array>
+   
+    <string-array name="city">
+        <item>北京</item>
+        <item>南京</item>
+        <item>上海</item>
+        <item>合肥</item>
+        <item>太原</item>
+        <item>重庆</item>
+        <item>香港</item>
+        <item>广州</item>
+        <item>天津</item>
+        <item>温州</item>
+        <item>台湾</item>
+        <item>哈尔滨</item>
+    </string-array>
+    
+     <string-array name="diatance">
+        <item>1km以内</item>
+        <item>2km以内</item>
+        <item>5km以内</item>
+        <item>10km以内</item>
+        <item>20km以内</item>
+        <item>20km以外</item>
+    </string-array>
+   
+</resources>

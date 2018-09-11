@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="机型：B747-300"
+  android:ems="9"
+  android:id="@+id/p1901_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="头等舱/公务舱/经济舱"
+  android:id="@+id/p1902_tv"
+  ></TextView>
+  </TableRow>
+  
+  <TableRow
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="最大航程：11000"
+  android:ems="9"
+  android:id="@+id/p1903_tv"
+  ></TextView>
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="12/24/188"
+  android:id="@+id/p1904_tv"
+  ></TextView>
+  </TableRow>
+</TableLayout>

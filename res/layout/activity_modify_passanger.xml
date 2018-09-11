@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegestActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/reg_bg"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/psg_add_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:ems="10"
+            android:hint="乘客姓名"
+            android:padding="14dp" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/reg_list_line" />
+
+        <EditText
+            android:id="@+id/psg_add_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:ems="10"
+            android:hint="Email"
+            android:padding="14dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/reg_list_line" />
+
+        <Spinner
+            android:id="@+id/psg_add_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/reg_spinner_bg"
+            android:padding="14dp" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/reg_list_line" />
+
+        <EditText
+            android:id="@+id/psg_add_typeNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:ems="10"
+            android:hint="证件号码"
+            android:padding="14dp" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            android:src="@drawable/reg_list_line" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:ems="10"
+            android:hint="手机号"
+            android:padding="14dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/modpsg_submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/reg_bt"
+        android:text="更新联系人"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</RelativeLayout>

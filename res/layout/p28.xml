@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+   android:background="@drawable/main_bg">
+
+    <TextView
+        android:id="@+id/textView2801"
+        android:layout_width="319dp"
+        android:layout_height="70dp"
+        android:textSize="30sp"
+        android:maxLines="10"
+        android:singleLine="true"
+	    android:focusable="true"
+	    android:ellipsize="marquee"
+	    android:marqueeRepeatLimit="marquee_forever"
+	    android:focusableInTouchMode="true"
+        android:text="TextView" />
+
+    <GridView
+        
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" 
+        android:padding="25dp"
+        android:horizontalSpacing="25dp"
+        android:verticalSpacing="25dp"
+         android:layout_marginLeft="20dp"
+           
+        android:id="@+id/gridView1"
+     >
+    </GridView>
+
+</LinearLayout>
